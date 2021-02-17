@@ -38,8 +38,8 @@ def get_new_state():
 
 while 1:  # gameplay loop
     print('You are in the ', state)  # printing state
-    if state == 'Dungeon':
-        print('Battling with the villain', end='')
+    if state == 'Garage #2':
+        print('"Crusher Destroyer"', end='')
         for i in range(50):
             for j in range(1000000):
                 pass
